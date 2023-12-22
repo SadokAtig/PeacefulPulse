@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/RelMain"
+    android:visibility="gone"
+    tools:context=".SplashScreen"
+
+
+    >
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/z" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome "
+        android:visibility="gone"
+
+        android:textSize="50dp"
+
+        android:fontFamily="cursive"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/bleu"
+        android:id="@+id/welcome"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peaceful Pulse"
+        android:visibility="gone"
+
+        android:textSize="50dp"
+
+        android:fontFamily="cursive"
+        android:gravity="center"
+
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="87dp"
+        android:textColor="@color/bleu"
+        android:id="@+id/titl"
+        />
+
+    <TextView
+        android:id="@+id/slegon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginBottom="90dp"
+        android:gravity="center"
+        android:text="Shape Your Mind , Shape Your Future"
+        android:fontFamily="cursive"
+        android:textColor="@color/bleu"
+        android:textSize="24dp" />
+
+
+</RelativeLayout>
